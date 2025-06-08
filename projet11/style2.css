@@ -1,0 +1,106 @@
+body{
+    /*background-color: orange;
+    /*color: white;*/
+    /*background-color: orange;
+    color: red;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-image: url(recherche.jpg);*/
+    /* background-attachment: scroll;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;*/
+}
+
+.nav{
+   /* background-color: rgb(27, 26, 27);*/
+    /*height: 100px;
+    display: flex;
+    text-align: center;*/
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    display: center;
+    margin-left: 10%;
+}
+
+ul li{
+    text-align: center;
+    background-color: rgb(224, 21, 21);
+    margin: 12px;
+    padding: 15px;
+    cursor: pointer;
+}
+li, a{
+    text-decoration: none;
+    text-decoration: none;
+    text-decoration: none;
+    color: #444;
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: #ff7a10;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    /*border-radius: 1px;*/
+
+}
+
+.forme, .form{
+    background-color: rgba(69, 70, 75, 0.096);
+    text-align: center;
+    margin:5% 30%;
+    padding: 10% 5%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,20);
+}
+
+label, input, select{
+    background-color: rgba(69, 70, 75, 0.096);
+    margin: 12px 0px;
+    padding: 5px;
+    border-radius: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(240, 11, 11);
+    color: rgb(240, 11, 11);
+}
+
+button{
+    width: 230px;
+    padding: 5px;
+    border-radius: 8px;
+    border-bottom: 2px solid rgb(240, 11, 11);
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}

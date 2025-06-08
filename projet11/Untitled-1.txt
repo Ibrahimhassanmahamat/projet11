@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Choix par image</title>
+  <style>
+    .container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .choice {
+      border: 3px solid transparent;
+      border-radius: 10px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .choice.selected {
+      border-color: #4CAF50;
+      box-shadow: 0 0 10px rgba(0, 128, 0, 0.7);
+    }
+
+    .choice img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Faites votre choix en cliquant sur une image :</h2>
+
+  <div class="container">
+    <div class="choice" data-value="Option 1">
+      <img src="https://via.placeholder.com/150?text=Option+1" alt="Option 1">
+    </div>
+    <div class="choice" data-value="Option 2">
+      <img src="https://via.placeholder.com/150?text=Option+2" alt="Option 2">
+    </div>
+    <div class="choice" data-value="Option 3">
+      <img src="https://via.placeholder.com/150?text=Option+3" alt="Option 3">
+    </div>
+  </div>
+
+  <div id="result"></div>
+
+  <script>
+    const choices = document.querySelectorAll('.choice');
+    const result = document.getElementById('result');
+
+    choices.forEach(choice => {
+      choice.addEventListener('click', () => {
+        choices.forEach(c => c.classList.remove('selected'));
+        choice.classList.add('selected');
+        const selectedValue = choice.getAttribute('data-value');
+        result.textContent = "Vous avez choisi : " + selectedValue;
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.total-somme {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.total-somme span:first-child {
+    font-size: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    color: bold;
+
+}
+
+.montant {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00698f;
+    font-size: 36px;
+    font-weight: bold;
+    color: #00698f;
+}

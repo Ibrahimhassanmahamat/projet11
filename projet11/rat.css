@@ -1,0 +1,138 @@
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead tr {
+    background-color: #009688;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e0f2f1;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #009688;
+    outline: none;
+    background-color: #e0f2f1;
+}
+
+.submit-button {
+    padding: 12px 25px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px 5px 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #00796b;
+}
+.success-message {
+    background: linear-gradient(135deg, #00c9a7, #92fe9d);
+    color: #ffffff;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeInScale 0.5s ease-in-out;
+    text-align: center;
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.error-message {
+    background: linear-gradient(135deg, #f85032, #e73827);
+    color: #ffffff;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeInScale 0.5s ease-in-out;
+    text-align: center;
+}
+.success-message {
+    background: linear-gradient(135deg, #00c9a7, #92fe9d);
+    color: #ffffff;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeInScale 0.5s ease-in-out;
+    text-align: center;
+}
+
+.error-message {
+    background: linear-gradient(135deg, #f85032, #e73827);
+    color: #ffffff;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeInScale 0.5s ease-in-out;
+    text-align: center;
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

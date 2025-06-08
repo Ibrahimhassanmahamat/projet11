@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation de Tables et Tentes - Ngaoundéré</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="1746080061738.jpg" alt="Logo Réservation Ngaoundéré" class="logo">
+                <span class="logo-text">Réservation Ngaoundéré</span>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.php" class="nav-link active"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li><a href="#services" class="nav-link"><i class="fas fa-concierge-bell"></i> Services</a></li>
+                    <li><a href="propos.php" class="nav-link"><i class="fas fa-info-circle"></i> À Propos</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            <div class="cta-nav">
+                <a href="#reservation" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Réserver</a>
+            </div>
+        </div>
+    </header>
+    <section id="accueil" class="hero-section">
+            
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Organisez vos événements en toute simplicité</h1>
+            <p class="hero-subtitle">Réservation de tables et tentes à Ngaoundéré pour mariages, baptêmes et cérémonies</p>
+            <div class="hero-cta">
+                <a href="#reservation" class="btn btn-large btn-primary"><i class="fas fa-calendar-alt"></i> Réserver maintenant</a>
+                <a href="#services" class="btn btn-large btn-secondary"><i class="fas fa-search"></i> Nos services</a>
+            </div>
+        </div>
+        
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+<section id="services" class="services-section" >
+
+          <div class="section-header">
+            <h2 class="section-title">Nos Services Premium</h2>
+            <p class="section-subtitle">vos models de Tables</p>
+            <div class="divider"></div>
+         </div>
+
+         <section class="service-d" id="service-d">
+
+            <div class="service-d-box">
+                <img src="img/t1.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t2.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t3.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t4.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t5.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t6.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+           
+            <div class="service-d-box">
+                <img src="img/t8.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t9.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t10.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t11.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t12.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t13.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t14.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+            <div class="service-d-box">
+                <img src="img/t15.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+            <div class="service-d-box">
+                <img src="img/t16.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+            <div class="service-d-box">
+                <img src="img/t17.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+            <div class="service-d-box">
+                <img src="img/t18.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+            <div class="service-d-box">
+                <img src="img/t19.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+            
+
+            <div class="service-d-box">
+                <img src="img/t23.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+
+            <div class="service-d-box">
+                <img src="img/t24.jpg" alt="">
+                <div class="prix-a">5£ </div>
+            </div>
+            
+         </section>
+            
+        </section>
+ <footer id="contact" class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="1746080061738.jpg" alt="Logo Réservation Ngaoundéré" class="logo">
+                    <span>Réservation Ngaoundéré</span>
+                </div>
+                <p>Votre solution complète pour l'organisation d'événements à Ngaoundéré et ses environs.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Liens rapides</h3>
+                <ul class="footer-links">
+                    <li><a href="#accueil"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                    <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                    <li><a href="propos.html"><i class="fas fa-chevron-right"></i> À Propos</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Nos services</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Réservation en ligne</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Livraison sur site</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Location de matériel</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Organisation complète</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Contactez-nous</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Avenue des Martyrs, Ngaoundéré</li>
+                    <li><i class="fas fa-phone"></i> +237 6XX XXX XXX</li>
+                    <li><i class="fas fa-envelope"></i> contact@reservation-ngaoundere.cm</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Réservation Tables et Tentes Ngaoundéré. Tous droits réservés.</p>
+            <div class="legal-links">
+                <a href="#">Mentions légales</a>
+                <a href="#">Politique de confidentialité</a>
+                <a href="#">Conditions générales</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
